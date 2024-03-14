@@ -1,7 +1,7 @@
 # Ask the user to input the water temperature
 temperature = float(input("Enter the temperature of water: "))
 
-# Based on the user input create print statements dependant on the state of the water
+# Create print statements if water temperature is below 0
 if temperature <= 0:
     print("The state of the water is: Ice")
 elif temperature <= 100:
